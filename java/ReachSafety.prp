@@ -1,0 +1,2 @@
+CHECK( init(Main.main()), LTL(G assert) )
+
