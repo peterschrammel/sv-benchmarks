@@ -1,7 +1,7 @@
 public class Main {
   public static void main(String[] args) {
-    int x = 5;
-    int result = x - 2;
+    byte x = 5;
+    byte result = (byte)(x + 248);
     assert result == -3;
   }
 }

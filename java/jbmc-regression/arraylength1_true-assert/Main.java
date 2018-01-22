@@ -2,10 +2,10 @@ class Main
 {
   public static void main(String[] args)
   {
-    int size=10;
+    int size=args.length;
     int int_array[]=new int[size];
 
-    assert int_array.length == 10;
+    assert int_array.length == args.length;
   }
 }
 

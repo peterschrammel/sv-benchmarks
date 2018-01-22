@@ -2,7 +2,9 @@ class Main
 {
   public static void main(String[] args)
   {
-    int i = 10;
+    int i = args.length;
+    if(args.length<-128 || args.length>127)
+      return;
     byte b = (byte) i;
     assert b == i;
     short s = (short) i;

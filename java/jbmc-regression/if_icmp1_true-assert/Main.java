@@ -1,8 +1,6 @@
 class Main
 {
-  private static void f() {
-    int i = 10;
-    int j = 11;
+  private static void f(int i, int j) {
     if (i == j) {
       assert false;
     }
@@ -26,6 +24,8 @@ class Main
 
   public static void main(String[] args)
   {
-    f();
+    if(args.length+1 < 0)
+      return;
+    f(args.length, args.length+1);
   }
 }

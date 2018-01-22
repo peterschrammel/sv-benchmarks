@@ -5,7 +5,7 @@ public class Main
   }
   public static void main(String[] args)
   {
-    int size = 10;
+    int size = args.length;
     A[] array = new A[size];
 
     for (int i = 0; i < size; i++) {

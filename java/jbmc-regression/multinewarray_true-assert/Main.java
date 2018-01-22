@@ -8,17 +8,15 @@ class Main
     assert some_a[0].length==3;
     assert some_a[0][0].length==2;
   
-    int x=3;
-    int y=5;
+    int x=some_a[0].length;
+    int y=some_a[0].length + some_a[0][0].length;
     int[][] int_array = new int[x][y];
     
     for(int i=0; i<x; ++i)
       for(int j=0; j<x; ++j)
         int_array[i][j]=i+j;
 
-    //assert false;
-    /*assert int_array[4][10] == 14;*/
-    //A object_array[][] = new A[x][y];
+    assert int_array[2][4] == 6;
   }
 }
 

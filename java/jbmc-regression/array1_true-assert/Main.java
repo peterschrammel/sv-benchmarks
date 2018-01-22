@@ -2,7 +2,10 @@ class Main
 {
   public static void main(String[] args)
   {
-    int size=10;
+    int size=args.length;
+    if(size<8)
+      return;
+    
     int int_array[]=new int[size];
     
     for(int i=0; i<size; i++)
