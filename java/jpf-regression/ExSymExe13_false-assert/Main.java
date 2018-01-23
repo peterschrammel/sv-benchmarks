@@ -24,10 +24,10 @@ public class Main {
 	static int field2;
 	
   public static void main (String[] args) {
-	  int x = -300; /* we want to specify in an annotation that this param should be symbolic */
+	  int x = -args.length; /* we want to specify in an annotation that this param should be symbolic */
 
 	  Main inst = new Main();
-	  field = 300	;
+	  field = args.length;
 	  inst.test(x, field, field2);
 	  //test(x,x);
   }

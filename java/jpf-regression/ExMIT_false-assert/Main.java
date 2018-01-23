@@ -20,7 +20,7 @@
 
 public class Main {
 	public static void main (String[] args) {
-		foo(4);
+		foo(args.length);
 	}
 	public static int foo(int i) {
 	       if (2 * (i + 1)  == 10) {

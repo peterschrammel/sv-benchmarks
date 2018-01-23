@@ -27,7 +27,8 @@ public class Main {
 
 	  Main inst = new Main();
 	  field = 9;
-	  inst.test(x, field);
+	  if (args.length == 2)
+	  	inst.test(x, field);
 	  //test(x,x);
   }
   /* we want to let the user specify that this method should be symbolic */

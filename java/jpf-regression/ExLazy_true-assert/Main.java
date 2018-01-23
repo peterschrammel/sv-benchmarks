@@ -23,14 +23,15 @@ public class Main {
 	public static void test(Main x, int y) {
         if (x == null && y==0) {
                System.out.println(1);
-        } else {
+        } else if (x != null){
                 System.out.println(2);
                 assert false;
         }
 	}
 	public static void main (String[] args) {
-
-		  test(null,0);
-
+		if (args.length == 0)
+			test(null,0);
+		else
+			test(null,args.length);
 	  }
 }

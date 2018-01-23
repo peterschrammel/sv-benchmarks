@@ -30,7 +30,7 @@ public class Main {
 	}
 	public static void main (String[] args) {
 
-		  test(null,1);
+		  test(null,args.length);
 
 	  }
 }
