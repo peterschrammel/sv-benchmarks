@@ -27,6 +27,7 @@ public class Main {
 		n.next = m;
 		n.next.next=n;
 		Node na = n.swapNode();
+		n.elem = args.length;
 		//Debug.printSymbolicRef(n);
 		//Debug.printPC("\nPC");
 		//Debug.printHeapPC("Heap PC");
@@ -51,6 +52,10 @@ public class Main {
 					t.next = this;
 					return t;
 				}
+
+			if (elem == 0)
+				assert false;
+
 			return this;
 		}
 	}

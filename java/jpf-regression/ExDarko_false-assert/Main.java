@@ -22,9 +22,9 @@
 public class Main {
 
 	public static void main(String[] args) {
-		new Main().unboxed(1,2);
-		new Main().boxed(1,2);
-		new Main().customBoxed(1,2);
+		new Main().unboxed(args.length,2);
+		new Main().boxed(args.length,2);
+		new Main().customBoxed(args.length,2);
 	}
 
 	private void unboxed(int i, int j) {

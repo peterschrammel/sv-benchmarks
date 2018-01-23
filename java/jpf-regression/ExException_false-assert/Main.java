@@ -31,7 +31,7 @@ public class Main {
 	}
 	public static void main(String[] args) {
 		   System.out.println(0);
-		   test(2);
+		   test(args.length);
 		   System.out.println(1);
 	}
 	
