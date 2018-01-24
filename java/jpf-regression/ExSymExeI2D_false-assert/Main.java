@@ -1,4 +1,11 @@
 /*
+ * Origin of the benchmark:
+ *     repo: https://babelfish.arc.nasa.gov/hg/jpf/jpf-symbc
+ *     branch: updated-spf
+ *     root directory: src/tests/gov/nasa/jpf/symbc
+ * The benchmark was taken from the repo: 24 January 2018
+ */
+/*
  * Copyright (C) 2014, United States Government, as represented by the
  * Administrator of the National Aeronautics and Space Administration.
  * All rights reserved.
