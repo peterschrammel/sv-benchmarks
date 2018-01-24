@@ -1,3 +1,10 @@
+/*
+ * Origin of the benchmark:
+ *     repo: https://github.com/diffblue/cbmc.git
+ *     branch: develop
+ *     directory: regression/cbmc-java/enum1
+ * The benchmark was taken from the repo: 24 January 2018
+ */
 enum enum1
 {
   VAL1, VAL2, VAL3, VAL4, VAL5;

@@ -1,3 +1,10 @@
+/*
+ * Origin of the benchmark:
+ *     repo: https://github.com/marek-trtik/cbmc.git
+ *     branch: add_string_regression_tests
+ *     directory: regression/jbmc-strings-test-gen/CharSequenceToString
+ * The benchmark was taken from the repo: 24 January 2018
+ */
 public class Main
 {
     public static void main(String[] args)
