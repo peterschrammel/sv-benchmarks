@@ -1,3 +1,10 @@
+/*
+ * Origin of the benchmark:
+ *     repo: https://github.com/jayhorn/cav_experiments.git
+ *     branch: master
+ *     root directory: benchmarks/recursive
+ * The benchmark was taken from the repo: 24 January 2018
+ */
 public class Main {
     private static int f(int n) {
         if (n > 100)
