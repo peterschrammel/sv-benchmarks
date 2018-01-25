@@ -57,8 +57,6 @@ public class Main {
 	  else
 		  System.out.println("branch BOO2");
 
-	  //assert false;
-
   }
 }
 

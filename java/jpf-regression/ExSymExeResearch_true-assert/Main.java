@@ -29,16 +29,16 @@ public class Main {
   
   
   public static void main (String[] args) {
-      int x = 3;
+      int x = args.length > 0 ? args.length : -args.length;
       int y = 5;
       Main inst = new Main();
-      assert inst.test(x, y) != 2;
+      assert inst.test(x, y) != x+y;
   }
 
  
   public int test (int a, int b) { //invokevirtual
-	  int result=0;
-      System.out.println("Testing ExSymExeResearch");
+    int result=0;
+    System.out.println("Testing ExSymExeResearch");
     if (a >=0 && a <100 && b>=0 && b <100) {
       int sum = a + b;
       int diff = a - b;

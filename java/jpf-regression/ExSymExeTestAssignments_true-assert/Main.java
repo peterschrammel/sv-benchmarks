@@ -30,7 +30,7 @@ public class Main {
 	int field;
 	
   public static void main (String[] args) {
-	  int x = 3; 
+	  int x = args.length; 
 	  test(x);
   }
 

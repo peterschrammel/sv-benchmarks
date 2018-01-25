@@ -28,7 +28,7 @@
 public class Main {
 	
   public static void main (String[] args) {
-	  float x = 3;
+	  float x = args.length%100;
 	  Main inst = new Main();
 	  inst.test(x);
   }

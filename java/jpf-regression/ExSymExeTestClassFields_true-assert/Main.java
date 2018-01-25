@@ -27,12 +27,13 @@
 
 
 public class Main {
-	//@Symbolic("true")
-	static int field;
-    int field2;
+  //@Symbolic("true")
+  static int field;
+  int field2;
 
   public static void main (String[] args) {
-	  (new Main()).test();
+	  if(args.length == 2)
+	  	(new Main()).test();
 
   }
   public void test() {

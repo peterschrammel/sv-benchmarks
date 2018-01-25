@@ -31,7 +31,7 @@ public class Main {
 	static int field2;
 	
   public static void main (String[] args) {
-	  int x = 30; /* we want to specify in an annotation that this param should be symbolic */
+	  int x = args.length%30; /* we want to specify in an annotation that this param should be symbolic */
 
 	  Main inst = new Main();
 	  field = 9000;

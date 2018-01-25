@@ -29,7 +29,7 @@
 public class Main {
 
 	public static void main(String[] args) {
-		new Main().unboxed(args.length+1,args.length);
+		new Main().unboxed((args.length%10)+1,(args.length%10));
 		new Main().boxed(1,2);
 		new Main().customBoxed(1,2);
 	}

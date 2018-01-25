@@ -29,7 +29,7 @@
 public class Main {
 
   public static void main (String[] args) {
-	  int x = -1; /* we want to specify in an annotation that this param should be symbolic */
+	  int x = args.length > 0 ? -args.length : args.length; /* we want to specify in an annotation that this param should be symbolic */
 
 
 	  test(x);

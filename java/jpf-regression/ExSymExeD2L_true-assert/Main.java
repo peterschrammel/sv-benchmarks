@@ -29,7 +29,7 @@
 public class Main {
 	
   public static void main (String[] args) {
-	  double x = 3.0;
+	  double x = args.length > 0 ? 3.0 : -args.length;
 
 	  Main inst = new Main();
 	  inst.test(x);

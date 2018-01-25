@@ -28,7 +28,7 @@
 public class Main {
 	
   public static void main (String[] args) {
-	  long x = 3;
+	  long x = args.length > 0 ? -args.length : args.length;
 	  long y = 5;
 	  Main inst = new Main();
 	  inst.test(x, y);

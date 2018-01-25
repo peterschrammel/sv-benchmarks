@@ -45,7 +45,7 @@ public class Main {
 
 	  Main inst = new Main();
 	  Node n = new Node();
-	  n.test(0,0);
+	  n.test(args.length,args.length+1);
 	  //Debug.printPC("PC: ");
 	  System.out.println("*****************");
   }

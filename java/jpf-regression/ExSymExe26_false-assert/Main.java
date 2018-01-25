@@ -28,9 +28,9 @@
 public class Main {
 	
   public static void main (String[] args) {
-	  int a = 3;
+	  int a = args.length%3;
 	  Main inst = new Main();
-	  int b = 8;
+	  int b = args.length%8;
 	  inst.test(a, b, a);
   }
 

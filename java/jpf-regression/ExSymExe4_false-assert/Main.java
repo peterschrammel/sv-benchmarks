@@ -28,8 +28,8 @@
 public class Main {
 	
   public static void main (String[] args) {
-	  int x = -13;
-	  int y = -15;
+	  int x = args.length%13 - 13;
+	  int y = args.length%15 - 15;
 	  Main inst = new Main();
 	  inst.test(x, y);
   }

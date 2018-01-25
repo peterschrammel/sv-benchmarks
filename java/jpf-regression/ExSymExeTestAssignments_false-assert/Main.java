@@ -30,12 +30,11 @@ public class Main {
 	int field;
 	
   public static void main (String[] args) {
-	  int x = 3; 
+	  int x = args.length; 
 	  test(x);
   }
 
   public static void test (int x) {
-	  x=3;
 	  if (x > 0) {
                   assert false;
 		  System.out.println("branch BOO1");

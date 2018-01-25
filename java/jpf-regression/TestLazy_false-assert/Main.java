@@ -27,7 +27,7 @@
 
 public class Main {
 	public static void main(String[] args) {
-		(new Main()).f(0, 0);
+		(new Main()).f(args.length, 0);
 	}
 
 	public void f(int a, int b) {

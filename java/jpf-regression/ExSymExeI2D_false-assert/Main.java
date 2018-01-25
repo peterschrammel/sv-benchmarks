@@ -29,7 +29,7 @@
 public class Main {
 	
   public static void main (String[] args) {
-	  int x = 3;
+	  int x = args.length%100;
 
 	  Main inst = new Main();
 	  inst.test(x);

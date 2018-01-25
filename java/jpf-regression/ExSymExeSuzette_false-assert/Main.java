@@ -75,7 +75,7 @@ public class Main {
 
 		Main ex = new Main();
 
-		ex.test(0,0);
+		ex.test(args.length,args.length);
 		//test(0,0);
 	}
 

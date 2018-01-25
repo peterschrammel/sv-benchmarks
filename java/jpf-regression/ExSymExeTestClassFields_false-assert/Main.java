@@ -27,16 +27,16 @@
 
 
 public class Main {
-	//@Symbolic("true")
-	static int field;
-    int field2;
+  //@Symbolic("true")
+  static int field;
+  int field2;
 
   public static void main (String[] args) {
-	  (new Main()).test();
+	  (new Main()).test(args.length);
 
   }
-  public void test() {
-	  	  if(field ==0 && field2 ==0) {
+  public void test(int arg) {
+	  	  if(field == 0 && field2 == 0 && arg ==3 ) {
                           assert false;
 			  System.out.println("br 0");
                   }
