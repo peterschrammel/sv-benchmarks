@@ -7,7 +7,7 @@
  */
 public class Main {
 
-  public void f(String[] args) {
+  public static void main(String[] args) {
     int unknown = args.length;
     int[] arr;
     if(unknown > 0)
