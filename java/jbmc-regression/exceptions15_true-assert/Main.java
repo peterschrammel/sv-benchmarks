@@ -17,7 +17,7 @@ public class Main {
     return address;
   }
 
-  public void main(String[] args) {
+  public static void main(String[] args) {
     try {
       InetAddress address = new InetAddress();
       int i = args.length;
