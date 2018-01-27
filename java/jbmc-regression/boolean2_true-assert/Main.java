@@ -7,14 +7,14 @@
  */
 public class Main
 {
-  public void main(String[] args)
+  public static void main(String[] args)
   {
     boolean b=args.length > 2;
     boolean result=f(b);
     assert result==!b;
   }
 
-  public boolean f(boolean b)
+  public static boolean f(boolean b)
   {
     return !b;
   }
