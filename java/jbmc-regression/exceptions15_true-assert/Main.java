@@ -9,11 +9,11 @@ class InetAddress {}
 class InetSocketAddress {}
 
 public class Main {
-  public String lookupPtrRecord(InetAddress address) {
+  public static String lookupPtrRecord(InetAddress address) {
     return "Foo";
   }
 
-  public InetAddress reverse(InetAddress address) {
+  public static InetAddress reverse(InetAddress address) {
     return address;
   }
 
