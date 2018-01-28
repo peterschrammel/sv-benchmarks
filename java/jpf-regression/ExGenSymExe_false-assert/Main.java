@@ -48,9 +48,9 @@ public class Main {
 			static_next = new Node();
 			static_next.next = new Node();
 			static_next.next.next = new Node();
-			System.out.println("static_next "+static_next);
-			System.out.println("static_next.next "+static_next.next);
-			System.out.println("static_next.next.next "+static_next.next.next);
+			//System.out.println("static_next "+static_next);
+			//System.out.println("static_next.next "+static_next.next);
+			//System.out.println("static_next.next.next "+static_next.next.next);
 			if (next!=null)
 				if(elem > next.elem) {
                        			assert next != null;
