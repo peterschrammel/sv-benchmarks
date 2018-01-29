@@ -9,10 +9,10 @@ public class Main
 {
     public static void main(String[] args)
     {
-        String letters = "attachfilesbydragginganddroppingthem ";
+        String letters = "attachfilesbydragginganddroppingthem";
 
-        String tmp=letters.substring(19);
-        assert tmp.equals("ganddroppingthem ");
+        String tmp=letters.substring(20);
+        assert tmp.equals("ganddroppingthem");
         tmp=letters.substring(6, 10);
         assert tmp.equals("file");
     }
