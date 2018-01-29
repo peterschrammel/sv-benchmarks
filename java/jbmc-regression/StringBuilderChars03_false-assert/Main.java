@@ -5,7 +5,7 @@
  *     directory: regression/jbmc-strings/StringBuilderChars03
  * The benchmark was taken from the repo: 24 January 2018
  */
-public class StringBuilderChars03
+public class Main
 {
    public static void main(String[] args)
    {

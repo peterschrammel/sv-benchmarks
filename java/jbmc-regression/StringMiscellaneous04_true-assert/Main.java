@@ -15,7 +15,7 @@ public class Main
         char arr[]=new char[s.length()];
         // We limit arbitrarly the loop unfolding to 10
         for(int i=0; i<length && i<10; i++)
-            arr[i]=org.cprover.CProverString.charAt(s, i);
+            arr[i]=s.charAt(i);
         return arr;
     }
 
@@ -50,7 +50,7 @@ public class Main
         int i=0;
         for (char character : charArray)
         {
-            assert character==org.cprover.CProverString.charAt("diffblue", i);
+            assert character=="diffblue".charAt(i);
             ++i;
         }
 

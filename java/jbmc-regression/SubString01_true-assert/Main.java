@@ -9,11 +9,11 @@ public class Main
 {
     public static void main(String[] args)
     {
-        String letters = "automatictestcasegenerationatdiffblue";
+        String letters = "attachfilesbydragginganddroppingthem ";
 
-        String tmp=org.cprover.CProverString.substring(letters, 20);
-        assert tmp.equals("erationatdiffblue");
-        tmp=org.cprover.CProverString.substring(letters, 9, 13);
-        assert tmp.equals("test");
+        String tmp=letters.substring(19);
+        assert tmp.equals("ganddroppingthem ");
+        tmp=letters.substring(6, 10);
+        assert tmp.equals("file");
     }
 }

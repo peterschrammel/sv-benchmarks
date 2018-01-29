@@ -5,7 +5,7 @@
  *     directory: regression/jbmc-strings/StringContains02
  * The benchmark was taken from the repo: 24 January 2018
  */
-public class test
+public class Main
 {
     public static void main(String[] args)
     {
