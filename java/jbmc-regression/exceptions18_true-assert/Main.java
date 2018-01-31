@@ -9,12 +9,12 @@ class A extends RuntimeException {}
 class B extends A {}
 
 public class Main {
-  void foo()
+  private static void foo()
   {
     A a=new A();
     throw a;
   }
-  void main(String[] args)
+  public static void main(String[] args)
   {
     try
     {
@@ -24,7 +24,11 @@ public class Main {
     catch(B e)
     {
       assert false;
-    } 
+    }
+    catch(A e)
+    {
+      // expected here
+    }
   }
   
 }
