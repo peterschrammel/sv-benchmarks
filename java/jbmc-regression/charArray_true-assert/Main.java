@@ -14,9 +14,10 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        if(args.length<2 || args[1]==null || args[1].length() < 5)
+        if(args.length<2 || args[1]==null || args[1].length() != 5)
             return;
-        String s = new String("HELLO") + new String(f(args[1].toCharArray()));
+        char[] c = f(args[1].toCharArray());
+        String s = new String("HELLO") + new String(c, 0, c.length);
         assert s.charAt(5) == 's';
     }
 }
